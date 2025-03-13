@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Fond transparent -->
+  
+  <!-- Écran central représentant l'application -->
+  <rect x="250" y="150" width="300" height="300" rx="20" fill="#FFFFFF" stroke="#050A30" stroke-width="3"/>
+  
+  <!-- Écran de l'application -->
+  <rect x="280" y="180" width="240" height="200" rx="5" fill="#FFF6EA"/>
+  
+  <!-- Barre de navigation -->
+  <rect x="280" y="180" width="240" height="40" rx="5" fill="#050A30"/>
+  <circle cx="300" cy="200" r="8" fill="#FFC100"/>
+  <rect x="320" y="195" width="60" height="10" rx="5" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Conteneur d'applications -->
+  <rect x="290" y="235" width="100" height="135" rx="5" fill="#FFFFFF" stroke="#050A30" stroke-width="1"/>
+  <rect x="410" y="235" width="100" height="65" rx="5" fill="#FFFFFF" stroke="#050A30" stroke-width="1"/>
+  <rect x="410" y="310" width="100" height="60" rx="5" fill="#FFFFFF" stroke="#050A30" stroke-width="1"/>
+  
+  <!-- Icônes d'applications -->
+  <rect x="305" y="245" width="25" height="25" rx="5" fill="#FFC100"/>
+  <rect x="345" y="245" width="25" height="25" rx="5" fill="#050A30"/>
+  <rect x="305" y="280" width="25" height="25" rx="5" fill="#050A30"/>
+  <rect x="345" y="280" width="25" height="25" rx="5" fill="#FFC100"/>
+  <rect x="305" y="315" width="25" height="25" rx="5" fill="#FFC100"/>
+  <rect x="345" y="315" width="25" height="25" rx="5" fill="#050A30"/>
+  
+  <!-- Graphique dans une des sections -->
+  <path d="M420 260 L430 245 L440 255 L450 240 L460 250 L470 235 L480 255" stroke="#050A30" stroke-width="2" fill="none"/>
+  <circle cx="420" cy="260" r="3" fill="#FFC100"/>
+  <circle cx="430" cy="245" r="3" fill="#FFC100"/>
+  <circle cx="440" cy="255" r="3" fill="#FFC100"/>
+  <circle cx="450" cy="240" r="3" fill="#FFC100"/>
+  <circle cx="460" cy="250" r="3" fill="#FFC100"/>
+  <circle cx="470" cy="235" r="3" fill="#FFC100"/>
+  <circle cx="480" cy="255" r="3" fill="#FFC100"/>
+  
+  <!-- Jauge dans une autre section -->
+  <path d="M460 340 A 30 30 0 0 1 430 340" stroke="#050A30" stroke-width="2" fill="none"/>
+  <path d="M460 340 A 30 30 0 0 0 445 315" stroke="#FFC100" stroke-width="2" fill="none"/>
+  <circle cx="445" cy="315" r="4" fill="#FFC100"/>
+  
+  <!-- Zone de boutons en bas -->
+  <rect x="300" y="395" width="60" height="25" rx="12.5" fill="#050A30"/>
+  <rect x="370" y="395" width="60" height="25" rx="12.5" fill="#FFC100"/>
+  <rect x="440" y="395" width="60" height="25" rx="12.5" fill="#FFFFFF" stroke="#050A30" stroke-width="1"/>
+  
+  <!-- Icônes de login -->
+  <g transform="translate(170, 220)">
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="#050A30" stroke-width="3"/>
+    <path d="M-20 -10 L0 5 L20 -10" stroke="#050A30" stroke-width="3" fill="none"/>
+    <path d="M-20 -10 L-20 20 L20 20 L20 -10" stroke="#050A30" stroke-width="3" fill="none"/>
+    <path d="M30 0 L80 0" stroke="#050A30" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="70,0 60,-5 60,5" fill="#050A30"/>
+  </g>
+  
+  <g transform="translate(170, 380)">
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="#050A30" stroke-width="3"/>
+    <path d="M0 -25 C-20 -25, -25 0, -15 10 C-25 15, -25 25, -15 30 C-10 35, 10 35, 15 30 C25 25, 25 15, 15 10 C25 -5, 15 -25, 0 -25" fill="#050A30"/>
+    <path d="M30 0 L80 0" stroke="#050A30" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="70,0 60,-5 60,5" fill="#050A30"/>
+  </g>
+  
+  <g transform="translate(630, 220)">
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="#050A30" stroke-width="3"/>
+    <path d="M0 -10 L-15 -10 L-15 10 L0 10 L0 20 L20 0 L0 -20 Z" fill="#FFC100"/>
+    <path d="M-30 0 L-80 0" stroke="#050A30" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="-70,0 -60,-5 -60,5" fill="#050A30"/>
+  </g>
+  
+  <g transform="translate(630, 380)">
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="#050A30" stroke-width="3"/>
+    <rect x="-15" y="-15" width="12" height="12" fill="#050A30"/>
+    <rect x="3" y="-15" width="12" height="12" fill="#FFC100"/>
+    <rect x="-15" y="3" width="12" height="12" fill="#FFC100"/>
+    <rect x="3" y="3" width="12" height="12" fill="#050A30"/>
+    <path d="M-30 0 L-80 0" stroke="#050A30" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="-70,0 -60,-5 -60,5" fill="#050A30"/>
+  </g>
+</svg>

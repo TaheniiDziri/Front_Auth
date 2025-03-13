@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background with beige color -->
+  <rect width="500" height="400" fill="#fff6ea" rx="10" ry="10"/>
+  
+  <!-- Large circular background element -->
+  <circle cx="250" cy="200" r="150" fill="#ffc100" opacity="0.1"/>
+  <circle cx="250" cy="200" r="120" fill="#ffc100" opacity="0.05"/>
+  
+  <!-- App window with mobile interface -->
+  <rect x="280" y="100" width="180" height="200" rx="10" ry="10" fill="white" filter="drop-shadow(0px 4px 10px rgba(0,0,0,0.1))"/>
+  
+  <!-- Window controls -->
+  <circle cx="300" cy="115" r="5" fill="#ff6b6b"/>
+  <circle cx="315" cy="115" r="5" fill="#ffd93d"/>
+  <circle cx="330" cy="115" r="5" fill="#6bcb77"/>
+  
+  <!-- Search/filter bar -->
+  <rect x="295" y="135" width="150" height="15" rx="3" ry="3" fill="#f1f3f4"/>
+  <rect x="295" y="135" width="15" height="15" rx="3" ry="3" fill="#ffc100"/>
+  
+  <!-- User list items -->
+  <rect x="295" y="160" width="150" height="35" rx="5" ry="5" fill="#f8f9fa"/>
+  <circle cx="310" cy="177" r="10" fill="#ffc100" opacity="0.7"/>
+  <rect x="325" y="170" width="80" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  <rect x="325" y="180" width="60" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  
+  <rect x="295" y="205" width="150" height="35" rx="5" ry="5" fill="#f8f9fa"/>
+  <circle cx="310" cy="222" r="10" fill="#ffc100" opacity="0.7"/>
+  <rect x="325" y="215" width="80" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  <rect x="325" y="225" width="60" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  
+  <rect x="295" y="250" width="150" height="35" rx="5" ry="5" fill="#f8f9fa"/>
+  <circle cx="310" cy="267" r="10" fill="#ffc100" opacity="0.7"/>
+  <rect x="325" y="260" width="80" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  <rect x="325" y="270" width="60" height="5" rx="2" ry="2" fill="#e0e0e0"/>
+  
+  <!-- Connection hub cross/plus symbol -->
+  <path d="M160 140 L160 260 M100 200 L220 200" stroke="#ffc100" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Connector nodes with icons -->
+  <circle cx="100" cy="140" r="25" fill="white" stroke="#ffc100" stroke-width="3"/>
+  <rect x="90" y="130" width="20" height="20" rx="3" ry="3" fill="#ffc100"/>
+  <path d="M95 140 L105 140 M100 135 L100 145" stroke="white" stroke-width="2"/>
+  
+  <circle cx="100" cy="200" r="25" fill="white" stroke="#ffc100" stroke-width="3"/>
+  <rect x="90" y="190" width="20" height="20" rx="10" ry="10" fill="#ffc100"/>
+  <path d="M96 200 L104 205 L96 210 Z" fill="white"/>
+  
+  <circle cx="100" cy="260" r="25" fill="white" stroke="#ffc100" stroke-width="3"/>
+  <path d="M90 252 L110 268 M90 268 L110 252" stroke="#ffc100" stroke-width="3"/>
+  
+  <!-- Connection lines from icons to central hub -->
+  <path d="M125 140 L160 140" stroke="#ffc100" stroke-width="3" stroke-dasharray="5,3"/>
+  <path d="M125 200 L160 200" stroke="#ffc100" stroke-width="3" stroke-dasharray="5,3"/>
+  <path d="M125 260 L160 260" stroke="#ffc100" stroke-width="3" stroke-dasharray="5,3"/>
+  
+  <!-- Connection line from hub to app window -->
+  <path d="M220 200 L280 200" stroke="#ffc100" stroke-width="3" stroke-dasharray="5,3"/>
+</svg>
